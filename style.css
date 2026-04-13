@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* https//loremflickr.com/1600/900/nature*/
+
+body {
+    background-color: rgb(3, 16, 49);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa-maior {
+    background-color: rgb(10, 25, 70);
+    width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: calc(100% -100px);
+}
+
+.botao {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 8px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.botao:hover {
+    background-color: rgb(185, 149, 149) ;
+    transform: scale(1.09);
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    font-size: 28px;
+    color: #fff;
+}
+
+.temperatura{
+    font-size: 32px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.umidade{
+  color: #fff;
+}
+
+.botao-ia{
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.botao-ia:active{
+    transform: scale(1.03);
+    opacity: 0.8; 
+}
+
+.resposta-ia{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
