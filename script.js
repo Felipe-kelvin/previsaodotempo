@@ -10,7 +10,7 @@ async function Buscar() {
     const cidadeInput = document.querySelector('.input-cidade').value.trim();
     const cidade = escapeHtml(cidadeInput);
 
-    const chave = process.env.SUA_API_KEY_AQUI;
+    const chave = SUA_API_KEY_AQUI;
 
     if (!cidade) {
         caixa.innerHTML = `<p class="erro">Por favor digite uma cidade.</p>`;
